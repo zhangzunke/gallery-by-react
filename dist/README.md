@@ -6,4 +6,10 @@ npm install XXXX --save-dev
 npm run serve:dist
 #ctrl + c stop the serve
 ctrl + c
+#deploy the static html to github gh-pages
+git subtree push --prefix=dist origin gh-pages
 
+#git deploy step
+git add -A
+git commit -m "comment"
+git push
