@@ -4,4 +4,6 @@ After building the dist version of your project, the generated files are stored 
 npm install XXXX --save-dev
 #run webpack serve
 npm run serve:dist
+#ctrl + c stop the serve
+ctrl + c
 
